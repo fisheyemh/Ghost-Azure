@@ -1,10 +1,14 @@
 {
     "database": {
-        "client": "sqlite3",
-        "connection": {
-            "filename": "content/data/ghost.db"
-        },
-        "debug": false
+      "client": "mysql",
+      "connection": {
+        "host": "b2c-mysqldb.mysql.database.azure.com",
+        "port": 3306,
+        "user": "boss@b2c-mysqldb",
+        "password": "boss/DadQ86a6mZgq9kS",
+        "database": "ghost-test",
+        "ssl": true
+      }
     },
     "paths": {
         "contentPath": "content/"
